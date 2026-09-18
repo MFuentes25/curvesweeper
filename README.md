@@ -40,8 +40,7 @@ Request a subset with `pdfs = c("rasch", "2pl", "comparison")` (any
 combination); by default all three are produced.
 
 Try it on the bundled simulated dataset first to confirm everything is
-working (this takes seconds, versus roughly a minute per model on a
-large real dataset):
+working:
 
 ```r
 irt_curve_report(
@@ -88,11 +87,9 @@ irt_curve_report(
 
 ## Roadmap
 
-Partial Credit Model support for polytomous (non-binary) items, and an
-optional missing-data robustness check (simulate, refit, and correlate
-against the original estimates), are both planned but not yet
-implemented — the package currently assumes binary 0/1 item responses
-throughout.
+PCM support, faster procesing times, and additional missing data robustness checks and diagnostics are planned
+for a future version. 
+
 
 ## License
 
