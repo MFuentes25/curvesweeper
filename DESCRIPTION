@@ -1,0 +1,31 @@
+Package: curvesweeper
+Title: IRT Item Curve Diagnostic Reports from TAM Models
+Version: 0.0.0.9000
+Authors@R: person("Martín", "Fuentes-Santelices", email = "martin.fuen.san@gmail.com", role = c("aut", "cre"))
+Description: Fits Rasch and 2PL item response theory models (via TAM) to
+    binary item-response data and produces PDF diagnostic reports: item
+    characteristic curves, Wright maps, item fit tables, and a cross-method
+    (JML/CML/MML) Rasch difficulty comparison. Works with any binary
+    item-response dataset and calls TAM's own native plotting/fitting
+    functions directly rather than reconstructing curves by hand.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    TAM,
+    WrightMap,
+    gridExtra,
+    grid,
+    eRm,
+    sirt,
+    grDevices,
+    graphics,
+    stats,
+    utils
+Suggests:
+    rio,
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3
