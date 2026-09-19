@@ -23,6 +23,8 @@ Import your data yourself first, then hand it to `irt_curve_report()`:
 ```r
 library(curvesweeper)
 
+setwd("i/reccomend/setting/your/directory/like/so")
+
 data <- rio::import("my_data.dta")
 
 irt_curve_report(
