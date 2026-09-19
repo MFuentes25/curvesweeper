@@ -1,6 +1,6 @@
 # curvesweeper
 
-This tool is heavily based on an item diagnostic R script created by [David Torres-Irribarra](https://github.com/david-ti). The main focus of this tool is to create Rasch and 2PL item response theory diagnostics, as ready-to-read PDF
+This tool is heavily based on an item diagnostic R script created by [David Torres-Irribarra](https://github.com/david-ti). The main focus of it is to create Rasch and 2PL item response theory diagnostics, as ready-to-read PDF
 reports, for any binary item-response dataset.
 
 `curvesweeper` fits Rasch and 2PL models with [TAM](https://cran.r-project.org/package=TAM)
