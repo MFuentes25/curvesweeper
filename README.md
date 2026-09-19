@@ -6,7 +6,7 @@ reports, for any binary item-response dataset.
 `curvesweeper` fits Rasch and 2PL models with [TAM](https://cran.r-project.org/package=TAM)
 and builds three PDF reports per dataset: item characteristic curves,
 Wright maps, item fit tables, and a cross-method (JML/CML/MML) difficulty
-comparison. It calls TAM's and WrightMap's own plotting and fitting
+comparison. It calls TAM's and [WrightMap's](https://cran.r-project.org/web/packages/WrightMap/index.html) own plotting and fitting
 functions.
 
 ## Installation
