@@ -38,19 +38,6 @@ This writes three PDFs into `reports/` and returns their paths invisibly.
 Request a subset with `pdfs = c("rasch", "2pl", "comparison")` (any
 combination); by default all three are produced.
 
-Try it on the bundled simulated dataset first to confirm everything is
-working:
-
-```r
-irt_curve_report(
-  sim_test_data,
-  id_cols      = "id",
-  item_cols    = paste0("l", 1:25),
-  output_dir   = "test_output",
-  dataset_name = "sim_test"
-)
-```
-
 ## What each report contains
 
 - **Rasch / 2PL reports** — a title page, item characteristic curves,
